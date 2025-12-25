@@ -119,12 +119,12 @@ API Key: 你的API密钥`,
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-3"
+            className="flex items-end gap-3"
           >
               <img
                 src="/claude-text-dark.svg"
                 alt="Claude Logo"
-                className="h-10 w-auto"
+                className="h-14 w-auto"
               />
             <span className="font-display font-bold text-xl">无限畅享版</span>
           </motion.div>
@@ -193,7 +193,13 @@ API Key: 你的API密钥`,
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-zinc-400 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            无次数限制，不限额度，支持Claude Opus 4.5 thinking
+            无次数限制，不限额度，支持
+            <img
+              src="/claude-text-dark.svg"
+              alt="Claude"
+              className="h-5 md:h-6 w-auto inline-block align-baseline mx-1"
+            />
+             Opus 4.5 thinking
           </motion.p>
 
           <motion.div
