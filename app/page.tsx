@@ -443,18 +443,18 @@ api_key = "你的API密钥"`,
               <motion.div
                 key={index}
                 variants={fadeInUp}
-                className="gradient-border rounded-3xl p-6"
+                className="gradient-border rounded-3xl p-4 md:p-6"
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 bg-gradient-to-br from-pink-500/20 to-orange-600/20 rounded-lg flex items-center justify-center">
                     <tool.icon className="w-5 h-5 text-pink-400" />
                   </div>
-                  <h3 className="font-display font-bold text-xl">{tool.name}</h3>
+                  <h3 className="font-display font-bold text-lg md:text-xl">{tool.name}</h3>
                 </div>
-                <div className="bg-black/50 rounded-lg p-3 mb-3 font-mono text-xs text-zinc-300 border border-zinc-800">
+                <div className="bg-black/50 rounded-lg p-3 mb-3 font-mono text-[10px] md:text-xs text-zinc-300 border border-zinc-800 overflow-x-auto">
                   <pre>{tool.code}</pre>
                 </div>
-                <p className="text-zinc-500 text-xs">{tool.hint}</p>
+                <p className="text-zinc-500 text-[10px] md:text-xs">{tool.hint}</p>
               </motion.div>
             ))}
           </motion.div>
