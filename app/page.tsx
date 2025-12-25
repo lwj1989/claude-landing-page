@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Sparkles, Compass, Crown, Shield, Database, ChevronRight, Terminal, Settings, RefreshCw, Search, Trash, HelpCircle } from 'lucide-react';
+import { Sparkles, Crown, Shield, Database, ChevronRight, Terminal, Settings, HelpCircle } from 'lucide-react';
 
 export default function Home() {
   const fadeInUp = {
