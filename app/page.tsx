@@ -124,7 +124,7 @@ API Key: 你的API密钥`,
               <img
                 src="/claude-text-dark.svg"
                 alt="Claude Logo"
-                className="h-14 w-auto"
+                className="h-8 w-auto"
               />
             <span className="font-display font-bold text-xl">无限畅享版</span>
           </motion.div>
@@ -458,7 +458,7 @@ API Key: 你的API密钥`,
               <img
                 src="/claude-text-dark.svg"
                 alt="Claude Logo"
-              className="h-12 w-auto"
+                className="h-6 w-auto"
               />
               <span className="font-display font-bold">Claude 无限畅享版</span>
             </div>
