@@ -137,7 +137,7 @@ api_key = "你的API密钥"`,
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-4"
+            className="flex items-center gap-4 hidden md:flex"
           >
             <a
               href="https://www.goofish.com/item?spm=a21ybx.personal.feeds.1.45376ac2mPbPM5&id=998028062567&categoryId=50025461"
