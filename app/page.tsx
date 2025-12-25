@@ -207,7 +207,7 @@ api_key = "你的API密钥"`,
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-zinc-400 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            无次数限制，不限额度，支持Claude Opus 4.5 thinking
+            无次数限制，不限额度，支持 Claude Opus 4.5 thinking
           </motion.p>
 
           <motion.div
@@ -222,7 +222,7 @@ api_key = "你的API密钥"`,
               rel="noopener noreferrer"
               className="group bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all flex items-center gap-2 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40"
             >
-              联系售后
+              开始使用
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </motion.div>
@@ -451,7 +451,7 @@ api_key = "你的API密钥"`,
               whileTap={{ scale: 0.95 }}
               className="inline-flex group bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-12 py-5 rounded-full font-bold text-xl transition-all items-center gap-3 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40"
             >
-              联系售后
+              开始使用
               <HelpCircle className="w-6 h-6" />
             </motion.a>
           </motion.div>
