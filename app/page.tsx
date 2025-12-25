@@ -104,10 +104,11 @@ API Key: 你的API密钥`,
     {
       name: 'Droid',
       icon: Terminal,
-      code: `Settings → API Provider → OpenAI
-Base URL: http://你的服务器地址:端口/v1
-API Key: 你的API密钥`,
-      hint: 'Claude Dev 替代方案'
+      code: `配置文件 ~/.config/droid/config.toml
+[anthropic]
+api_base = "http://你的服务器地址:端口/v1"
+api_key = "你的API密钥"`,
+      hint: '配置文件方式'
     }
   ];
 
