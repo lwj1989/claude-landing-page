@@ -17,6 +17,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Claude 无限畅享版",
   description: "一站式账号、日志与配额管理",
+  icons: {
+    icon: '/claude-color.svg',
+  },
 };
 
 export default function RootLayout({
