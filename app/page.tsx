@@ -181,13 +181,15 @@ API Key: 你的API密钥`,
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-display font-extrabold text-6xl md:text-8xl lg:text-9xl tracking-tight leading-[1.05] mb-6"
           >
-            <img
-              src="/claude-text-dark.svg"
-              alt="Claude"
-              className="h-[60px] md:h-[96px] lg:h-[128px] w-auto align-text-bottom"
-            />
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent">
-              无限畅享版
+            <span className="inline-flex items-center">
+              <img
+                src="/claude-text-dark.svg"
+                alt="Claude"
+                className="h-[60px] md:h-[96px] lg:h-[128px] w-auto"
+              />
+              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent">
+                无限畅享版
+              </span>
             </span>
           </motion.h1>
 
