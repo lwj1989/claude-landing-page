@@ -51,7 +51,7 @@ export default function Home() {
   const models = [
     { name: 'claude-opus-4.5', desc: '最强推理能力', highlight: true },
     { name: 'claude-opus-4.5-thinking', desc: '深度思考模式', highlight: true },
-    { name: 'claude-sonnet-4.5', desc: '平衡性能与速度', highlight: false },
+    { name: 'claude-sonnet-4.5', desc: '平衡性能与速度', highlight: true },
     { name: 'claude-sonnet-4', desc: '快速响应', highlight: false },
     { name: 'claude-haiku-4.5', desc: '轻量高效', highlight: false },
     { name: 'auto', desc: '自动选择最佳模型', highlight: false }
