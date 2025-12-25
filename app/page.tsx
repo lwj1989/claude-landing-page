@@ -140,7 +140,7 @@ api_key = "你的API密钥"`,
             className="flex items-center gap-4"
           >
             <a
-              href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.36b13da6f30167"
+              href="https://www.goofish.com/item?spm=a21ybx.personal.feeds.1.45376ac2mPbPM5&id=998028062567&categoryId=50025461"
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-400 hover:text-white transition-colors flex items-center gap-2"
@@ -149,7 +149,7 @@ api_key = "你的API密钥"`,
               闲鱼: 不能李姐
             </a>
             <a
-              href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.36b13da6f30167"
+              href="https://www.goofish.com/item?spm=a21ybx.personal.feeds.1.45376ac2mPbPM5&id=998028062567&categoryId=50025461"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-5 py-2.5 rounded-full font-medium transition-all"
@@ -217,7 +217,7 @@ api_key = "你的API密钥"`,
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16"
           >
             <a
-              href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.36b13da6f30167"
+              href="https://www.goofish.com/item?spm=a21ybx.personal.feeds.1.45376ac2mPbPM5&id=998028062567&categoryId=50025461"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all flex items-center gap-2 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40"
@@ -444,7 +444,7 @@ api_key = "你的API密钥"`,
               联系闲鱼售后「不能李姐」，获取完整使用指南
             </p>
             <motion.a
-              href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.36b13da6f30167"
+              href="https://www.goofish.com/item?spm=a21ybx.personal.feeds.1.45376ac2mPbPM5&id=998028062567&categoryId=50025461"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -476,7 +476,7 @@ api_key = "你的API密钥"`,
               <span className="font-display font-bold text-xl">无限畅享版</span>
             </div>
             <div className="flex items-center gap-6 text-sm text-zinc-500">
-              <a href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.36b13da6f30167" className="hover:text-zinc-400 transition-colors flex items-center gap-2">
+              <a href="https://www.goofish.com/item?spm=a21ybx.personal.feeds.1.45376ac2mPbPM5&id=998028062567&categoryId=50025461" className="hover:text-zinc-400 transition-colors flex items-center gap-2">
                 <HelpCircle className="w-4 h-4" />
                 闲鱼: 不能李姐
               </a>
