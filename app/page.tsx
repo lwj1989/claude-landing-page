@@ -149,7 +149,9 @@ api_key = "你的API密钥"`,
               闲鱼: 不能李姐
             </a>
             <a
-              href="#contact"
+              href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.36b13da6f30167"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-5 py-2.5 rounded-full font-medium transition-all"
             >
               开始使用
