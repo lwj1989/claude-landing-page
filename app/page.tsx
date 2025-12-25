@@ -102,7 +102,7 @@ API Key: 你的API密钥`,
       hint: 'VS Code 扩展插件'
     },
     {
-      name: 'Cline',
+      name: 'Droid',
       icon: Terminal,
       code: `Settings → API Provider → OpenAI
 Base URL: http://你的服务器地址:端口/v1
