@@ -458,9 +458,9 @@ API Key: 你的API密钥`,
               <img
                 src="/claude-text-dark.svg"
                 alt="Claude Logo"
-                className="h-6 w-auto"
+                className="h-8 w-auto"
               />
-              <span className="font-display font-bold">Claude 无限畅享版</span>
+              <span className="font-display font-bold text-xl">无限畅享版</span>
             </div>
             <div className="flex items-center gap-6 text-sm text-zinc-500">
               <a href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.36b13da6f30167" className="hover:text-zinc-400 transition-colors flex items-center gap-2">
