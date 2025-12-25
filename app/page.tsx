@@ -187,18 +187,18 @@ api_key = "你的API密钥"`,
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-display font-extrabold text-6xl md:text-8xl lg:text-9xl tracking-tight leading-[1.05] mb-6"
+            className="font-display font-extrabold text-6xl md:text-8xl lg:text-9xl tracking-tight leading-[1.05] mb-6 whitespace-normal md:whitespace-nowrap"
           >
-            <span className="flex flex-col md:flex-row items-center gap-2 md:gap-3">
+            <div className="flex flex-col md:flex-row items-center gap-2 md:gap-3">
               <img
                 src="/claude-text-dark.svg"
                 alt="Claude"
                 className="h-[60px] md:h-[96px] lg:h-[128px] w-auto"
               />
-              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent whitespace-nowrap">
                 无限畅享版
               </span>
-            </span>
+            </div>
           </motion.h1>
 
           <motion.p
