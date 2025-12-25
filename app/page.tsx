@@ -121,9 +121,11 @@ API Key: 你的API密钥`,
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg flex items-center justify-center font-bold font-display text-xl">
-              C
-            </div>
+            <img
+              src="/claude-text-dark.svg"
+              alt="Claude Logo"
+              className="h-10 w-auto"
+            />
             <span className="font-display font-bold text-xl">Claude 无限畅享版</span>
           </motion.div>
           <motion.div
@@ -447,9 +449,11 @@ API Key: 你的API密钥`,
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg flex items-center justify-center font-bold font-display">
-                C
-              </div>
+              <img
+                src="/claude-text-dark.svg"
+                alt="Claude Logo"
+                className="h-8 w-auto"
+              />
               <span className="font-display font-bold">Claude 无限畅享版</span>
             </div>
             <div className="flex items-center gap-6 text-sm text-zinc-500">
