@@ -184,7 +184,7 @@ API Key: 你的API密钥`,
             <img
               src="/claude-text-dark.svg"
               alt="Claude"
-              className="h-[2.5em] md:h-[3.5em] lg:h-[4.5em] w-auto align-baseline"
+              className="h-[60px] md:h-[96px] lg:h-[128px] w-auto align-text-bottom"
             />
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent">
               无限畅享版
