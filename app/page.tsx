@@ -121,12 +121,12 @@ API Key: 你的API密钥`,
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <img
-              src="/claude-text-dark.svg"
-              alt="Claude Logo"
-              className="h-10 w-auto"
-            />
-            <span className="font-display font-bold text-xl">Claude 无限畅享版</span>
+              <img
+                src="/claude-text-dark.svg"
+                alt="Claude Logo"
+                className="h-10 w-auto"
+              />
+            <span className="font-display font-bold text-xl">无限畅享版</span>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 20 }}
@@ -452,7 +452,7 @@ API Key: 你的API密钥`,
               <img
                 src="/claude-text-dark.svg"
                 alt="Claude Logo"
-                className="h-8 w-auto"
+              className="h-12 w-auto"
               />
               <span className="font-display font-bold">Claude 无限畅享版</span>
             </div>
