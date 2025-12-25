@@ -189,7 +189,7 @@ api_key = "你的API密钥"`,
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-display font-extrabold text-6xl md:text-8xl lg:text-9xl tracking-tight leading-[1.05] mb-6"
           >
-            <span className="inline-flex items-center">
+            <span className="flex flex-col md:flex-row items-center gap-2 md:gap-3">
               <img
                 src="/claude-text-dark.svg"
                 alt="Claude"
