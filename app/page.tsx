@@ -207,7 +207,40 @@ api_key = "你的API密钥"`,
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-zinc-400 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            无次数限制，不限额度，支持 Claude Opus 4.5 thinking
+            不限制请求次数，不限制额度，支持
+            <motion.span
+              className="inline-block relative"
+              animate={{
+                scale: [1, 1.05, 1],
+                textShadow: [
+                  '0 0 0px rgba(168, 85, 247, 0)',
+                  '0 0 20px rgba(168, 85, 247, 0.8)',
+                  '0 0 0px rgba(168, 85, 247, 0)'
+                ]
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
+              <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent font-bold relative z-10">
+                Claude Opus 4.5 thinking
+              </span>
+              <motion.span
+                className="absolute inset-0 bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 bg-clip-text text-transparent font-bold opacity-50 blur-sm"
+                animate={{
+                  opacity: [0.3, 0.8, 0.3]
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              >
+                Claude Opus 4.5 thinking
+              </motion.span>
+            </motion.span>
           </motion.p>
 
           <motion.div
