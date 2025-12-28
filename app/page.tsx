@@ -373,7 +373,7 @@ api_key = "你的API密钥"`,
       </section>
 
       {/* Versions Section */}
-      <section className="py-32 px-6 bg-zinc-950/50">
+      <section className="hidden py-32 px-6 bg-zinc-950/50">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
