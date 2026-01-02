@@ -205,7 +205,7 @@ api_key = "你的API密钥"`,
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-zinc-400 max-w-3xl mx-auto mb-12 leading-relaxed"
+            className="text-xl md:text-2xl text-zinc-400 max-w-3xl mx-auto mb-8 leading-relaxed"
           >
             不限制请求次数，不限制额度，支持
             <motion.span
@@ -242,6 +242,29 @@ api_key = "你的API密钥"`,
               </motion.span>
             </motion.span>
           </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.25 }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12"
+          >
+            <div className="bg-gradient-to-br from-green-500/10 to-emerald-600/10 border border-green-500/30 rounded-2xl p-6 text-center">
+              <div className="text-4xl mb-3">🖥️</div>
+              <div className="text-lg font-bold text-green-400 mb-2">全平台支持</div>
+              <div className="text-sm text-zinc-400">Windows · Mac · Linux</div>
+            </div>
+            <div className="bg-gradient-to-br from-purple-500/10 to-pink-600/10 border border-purple-500/30 rounded-2xl p-6 text-center">
+              <div className="text-4xl mb-3">♾️</div>
+              <div className="text-lg font-bold text-purple-400 mb-2">无限白嫖额度</div>
+              <div className="text-sm text-zinc-400">不限制请求次数</div>
+            </div>
+            <div className="bg-gradient-to-br from-orange-500/10 to-red-600/10 border border-orange-500/30 rounded-2xl p-6 text-center">
+              <div className="text-4xl mb-3">⚡</div>
+              <div className="text-lg font-bold text-orange-400 mb-2">无限畅享 Opus 4.5</div>
+              <div className="text-sm text-zinc-400">最强 AI 模型体验</div>
+            </div>
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
